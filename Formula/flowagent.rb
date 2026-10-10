@@ -1,25 +1,25 @@
 class Flowagent < Formula
   desc "Command-line client for the Flow Agent MCP server"
   homepage "https://github.com/murakamyadvisory/flowagent-cli"
-  version "0.13.0"
+  version "0.14.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.13.0/flowagent-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "aaeaa0f8d9dcb478366087dd8125b57de9d98b5dbe22a2e1f6b6fd768419603f"
+      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.14.0/flowagent-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "ee3feb8e8a9181a31d7a1ce8eeb8f8b1a38703003066e64b94490cbe193a53bc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.13.0/flowagent-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "e77983d31c65a19120b14dde1c00bbb081c5206e467d4f3cb6d913b1bb9f4bb6"
+      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.14.0/flowagent-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "714cd727b699bcc1dedcb5b6d05bf4a13abb21f9017e746201fbc0b322b34e5b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.13.0/flowagent-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ed574918b01781e5f1a2ccb1e646596dd3ee01a9c5010dcfc8c9d017f972f71e"
+      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.14.0/flowagent-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "21b4d053cf09d5f09623d5ddf606cb32c829288bb046b0a01c03c679d4dd03cf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.13.0/flowagent-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f892ea58faa578c358491eedca2550fd413d6ad8457ec5b579b15efd35f12d06"
+      url "https://github.com/murakamyadvisory/flowagent-cli/releases/download/cli/v0.14.0/flowagent-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "457d4e53ea6c8bf37520c4e920e88ab75ea87117907025b4f548a65a595a43b6"
     end
   end
 
